@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+
+:root {
+  --blue: #00b8b8;
+  --black: #333;
+  --white: #fff;
+  --light-color: #666;
+  --light-bg: #eee;
+  --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  text-decoration: none !important;
+}
+
+*::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 1rem;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
+}
+
+/* section{
+    padding:7rem 2rem;
+ } */
+
+.height-full {
+  height: 100vh;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--blue);
+}
+
+.header {
+  font-family: "Caveat", cursive;
+  text-align: center;
+
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.about {
+  font-family: "Caveat", cursive;
+  margin-top: 60px;
+}
+
+.service {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact .snapchat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact .snapchat i {
+  font-size: 40px;
+  color: yellow;
+}
+
+.contact .snapchat a {
+  text-transform: lowercase;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  background-color: yellow;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.contact .whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact .whatsapp i {
+  font-size: 40px;
+  color: green;
+}
+
+.contact .whatsapp a {
+  text-transform: lowercase;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  background-color: green;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.contact .email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact .email i {
+  font-size: 40px;
+  color: white;
+}
+
+.contact .email a {
+  text-transform: lowercase;
+  text-decoration: none;
+  color: black;
+  font-size: 15x;
+  background-color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
